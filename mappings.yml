@@ -1,14 +1,14 @@
-registry_id: mapping-registry-id
-registry_title: Mapping Registry Template
-registry_description: This is a template for a mapping registry, use to jumpstart your own.
-homepage: https://github.com/mapping-commons/mapping-commons-template
+registry_id: agronomy
+registry_title: Mapping AGROVOC AgrO initiative
+registry_description: Mapping registry for AGROVOC and the Agronomy Ontology
+homepage: https://github.com/mapping-commons/agronomy
 mappings:
-  - mapping_set_id: mp_hp_example
-    mapping_set_group: example_mappings
-    mapping_set_title: "Example Ontology Mappings: MP-HP"
+  - mapping_set_id: agrovoc_agro
+    mapping_set_group: agrovoc_agro
+    mapping_set_title: "Ontology Mappings: AGROVOC-AgrO"
     curie_map:
-      HP: "http://purl.obolibrary.org/obo/HP_"
-      MP: "http://purl.obolibrary.org/obo/MP_"
+      AGRO: "http://purl.obolibrary.org/obo/AGRO_"
+      AGROVOC: "http://aims.fao.org/aos/agrovoc/"
       skos: "http://www.w3.org/2004/02/skos/core"
-    license: "https://creativecommons.org/publicdomain/zero/1.0/"
-    mapping_provider: "https://github.com/mapping-commons/mapping-commons-template/"
+    license: "http://creativecommons.org/licenses/by/4.0/"
+    mapping_provider: "https://github.com/mapping-commons/agronomy/"

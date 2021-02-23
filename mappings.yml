@@ -10,5 +10,5 @@ mappings:
       AGRO: "http://purl.obolibrary.org/obo/AGRO_"
       AGROVOC: "http://aims.fao.org/aos/agrovoc/"
       skos: "http://www.w3.org/2004/02/skos/core"
-    license: "http://creativecommons.org/licenses/by/4.0/"
+    license: "https://creativecommons.org/publicdomain/zero/1.0/"
     mapping_provider: "https://github.com/mapping-commons/agronomy/"
